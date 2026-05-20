@@ -1,0 +1,40 @@
+{
+  "szerszamok": [
+    {
+      "id": "1",
+      "nev": "Kalapács",
+      "tipus": "ütő",
+      "ar": 2500,
+      "keszleten": 12
+    },
+    {
+      "id": "2",
+      "nev": "Csavarhúzó",
+      "tipus": "rögzítéstechnika",
+      "ar": 1200,
+      "keszleten": 5
+    },
+    {
+      "nev": "Kombináltfogó",
+      "tipus": "fogó",
+      "ar": 5825,
+      "keszleten": 2,
+      "id": "ZwQ8a5L_bik"
+    },
+    {
+      "nev": "Csípőfogó",
+      "tipus": "vágó",
+      "ar": 4700,
+      "keszleten": 2,
+      "id": "zxgrPLB5A7A"
+    },
+    {
+      "nev": "Sniccer",
+      "tipus": "vágó",
+      "ar": 1240,
+      "keszleten": 2,
+      "id": "69TDcKjO2Q4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

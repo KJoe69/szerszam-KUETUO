@@ -1,0 +1,100 @@
+/* src/app/app.component.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border: 1px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs a.active,
+.tabs a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.qty-buttons {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.qty-buttons button {
+  width: 36px;
+  height: 32px;
+  padding: 0;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.uj-szerszam {
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.field-error {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 105px;
+}

@@ -1,0 +1,30 @@
+<section class="uj-szerszam" aria-label="Új szerszám rögzítése">
+  <h2>Új szerszám rögzítése</h2>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <div class="form-group">
+    <label for="nev">Név:</label>
+    <input id="nev" type="text" [(ngModel)]="ujSzerszam.nev" />
+    <div *ngIf="hibak['nev']" class="field-error">{{ hibak['nev'] }}</div>
+  </div>
+
+  <div class="form-group">
+    <label for="tipus">Típus:</label>
+    <input id="tipus" type="text" [(ngModel)]="ujSzerszam.tipus" />
+    <div *ngIf="hibak['tipus']" class="field-error">{{ hibak['tipus'] }}</div>
+  </div>
+
+  <div class="form-group">
+    <label for="ar">Ár (Ft):</label>
+    <input id="ar" type="number" [(ngModel)]="ujSzerszam.ar" />
+    <div *ngIf="hibak['ar']" class="field-error">{{ hibak['ar'] }}</div>
+  </div>
+
+  <div class="form-group">
+    <label for="keszleten">Készleten (db):</label>
+    <input id="keszleten" type="number" [(ngModel)]="ujSzerszam.keszleten" />
+    <div *ngIf="hibak['keszleten']" class="field-error">{{ hibak['keszleten'] }}</div>
+  </div>
+
+  <button type="button" (click)="addSzerszam()">Hozzáadás</button>
+</section>
